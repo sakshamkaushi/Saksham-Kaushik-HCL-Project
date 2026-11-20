@@ -27,7 +27,8 @@ print(df["Order_ID"].duplicated().sum())
 
 # Remove duplicate orders
 df = df.drop_duplicates(subset="Order_ID", keep="first").copy()
-
+  
+  
 # 4. Total orders and status percentages
 print("\nTOTAL ORDERS")
 print(df["Order_ID"].nunique())
