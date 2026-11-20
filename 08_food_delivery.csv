@@ -1,0 +1,304 @@
+Order_ID,Order_Date,Order_Time,City,Restaurant,Order_Value,Order_Status,Payment_Mode,Delivery_Time_Minutes
+FD10001,2026-10-03,22:00:00,Bengaluru,Green Bowl,332.82,Cancelled,Debit Card,
+FD10002,2026-10-24,23:02:00,Hyderabad,Pizza Point,356.44,Delivered,Debit Card,14.0
+FD10003,2026-10-21,13:13:00,Lucknow,Spice Hub,986.91,Delivered,UPI,22.0
+FD10004,2026-10-14,18:53:00,Hyderabad,Green Bowl,862.33,Delivered,Credit Card,56.0
+FD10005,2026-10-14,12:27:00,Lucknow,Dosa Corner,441.77,Delivered,UPI,40.0
+FD10006,2026-10-27,20:42:00,Hyderabad,Wok Express,450.92,Delivered,UPI,33.0
+FD10007,2026-10-03,15:24:00,Lucknow,Green Bowl,301.65,Delivered,UPI,35.0
+FD10008,2026-10-22,20:10:00,Delhi,Spice Hub,157.46,Delivered,Credit Card,86.0
+FD10009,2026-10-07,21:22:00,Hyderabad,Pizza Point,497.79,Delivered,Debit Card,12.0
+FD10010,2026-10-03,21:05:00,Mumbai,Pizza Point,330.41,Delivered,UPI,36.0
+FD10011,2026-10-17,12:46:00,Bengaluru,Curry House,503.88,In Transit,Cash,30.0
+FD10012,2026-10-31,23:11:00,Bengaluru,Wrap & Roll,215.96,Delivered,Credit Card,36.0
+FD10013,2026-10-23,14:22:00,Lucknow,Wrap & Roll,375.22,Delivered,Cash,66.0
+FD10014,2026-10-24,09:58:00,Lucknow,Dosa Corner,548.24,Rejected,Credit Card,
+FD10015,2026-10-23,18:35:00,Mumbai,Dosa Corner,589.58,Delivered,Credit Card,22.0
+FD10016,2026-10-25,16:27:00,Hyderabad,Dosa Corner,599.32,Delivered,Debit Card,48.0
+FD10017,2026-10-16,22:32:00,Hyderabad,Spice Hub,269.11,Delivered,Wallet,34.0
+FD10018,2026-10-04,22:47:00,Mumbai,Urban Tadka,682.39,Delivered,Credit Card,28.0
+FD10019,2026-10-27,15:15:00,Delhi,Pizza Point,367.96,In Transit,Credit Card,
+FD10020,2026-10-14,23:38:00,Delhi,Royal Biryani,640.24,Delivered,Debit Card,43.0
+FD10021,2026-10-16,15:52:00,Hyderabad,Spice Hub,517.98,Delivered,Debit Card,45.0
+FD10022,2026-10-12,18:34:00,Bengaluru,Wrap & Roll,258.49,Delivered,UPI,45.0
+FD10023,2026-10-06,15:26:00,Lucknow,Royal Biryani,459.92,Delivered,Credit Card,46.0
+FD10024,2026-10-29,23:08:00,Bengaluru,Royal Biryani,589.42,Delivered,Credit Card,54.0
+FD10025,2026-10-25,13:14:00,Lucknow,Urban Tadka,636.46,Delivered,Wallet,15.0
+FD10026,2026-10-20,10:56:00,Mumbai,Pizza Point,493.21,Delivered,Credit Card,45.0
+FD10027,2026-10-13,17:32:00,Hyderabad,Urban Tadka,811.04,Delivered,Credit Card,
+FD10028,2026-10-26,23:18:00,Delhi,Wrap & Roll,711.43,Delivered,Wallet,69.0
+FD10029,2026-10-17,23:25:00,Bengaluru,Royal Biryani,471.24,Delivered,Credit Card,69.0
+FD10030,2026-10-14,21:34:00,Hyderabad,Curry House,662.52,Delivered,UPI,46.0
+FD10031,2026-10-14,23:32:00,Lucknow,Pizza Point,887.42,Delivered,UPI,41.0
+FD10032,2026-10-08,23:41:00,Hyderabad,Burger Barn,892.49,Delivered,UPI,36.0
+FD10033,2026-10-03,18:15:00,Delhi,Burger Barn,286.68,Cancelled,UPI,
+FD10034,2026-10-18,15:38:00,Mumbai,Curry House,343.96,Delivered,Credit Card,38.0
+FD10035,2026-10-28,21:26:00,Delhi,Curry House,802.13,Cancelled,Cash,
+FD10036,2026-10-02,20:56:00,Delhi,Urban Tadka,318.93,Delivered,Debit Card,42.0
+FD10037,2026-10-27,16:09:00,Hyderabad,Dosa Corner,268.72,Cancelled,UPI,
+FD10038,2026-10-26,12:08:00,Hyderabad,Urban Tadka,427.62,Delivered,Credit Card,26.0
+FD10039,2026-10-09,21:27:00,Hyderabad,Wrap & Roll,599.84,Delivered,UPI,35.0
+FD10040,2026-10-20,15:30:00,Lucknow,Spice Hub,500.54,Delivered,Wallet,62.0
+FD10041,2026-10-06,23:41:00,Hyderabad,Pizza Point,396.39,Delivered,UPI,41.0
+FD10042,2026-10-24,14:24:00,Hyderabad,Wrap & Roll,391.9,Delivered,Debit Card,37.0
+FD10043,2026-10-22,12:54:00,Delhi,Urban Tadka,384.66,Delivered,UPI,31.0
+FD10044,2026-10-11,22:28:00,Delhi,Burger Barn,352.89,Delivered,Debit Card,26.0
+FD10045,2026-10-03,13:07:00,Bengaluru,Green Bowl,953.51,Delivered,UPI,38.0
+FD10046,2026-10-31,13:07:00,Lucknow,Pizza Point,576.53,Delivered,Debit Card,39.0
+FD10047,2026-10-14,19:58:00,Delhi,Wok Express,688.48,Delivered,UPI,34.0
+FD10048,2026-10-28,22:08:00,Bengaluru,Wrap & Roll,427.08,Delivered,Wallet,68.0
+FD10049,2026-10-22,14:56:00,Hyderabad,Wrap & Roll,484.67,Delivered,Credit Card,58.0
+FD10050,2026-10-25,15:16:00,Delhi,Burger Barn,384.42,Delivered,Debit Card,87.0
+FD10051,2026-10-24,21:05:00,Mumbai,Royal Biryani,120.0,Delivered,Cash,37.0
+FD10052,2026-10-07,23:18:00,Lucknow,Pizza Point,258.18,Delivered,Wallet,77.0
+FD10053,2026-10-12,18:36:00,Hyderabad,Pizza Point,175.98,In Transit,UPI,
+FD10054,2026-10-15,13:25:00,Delhi,Urban Tadka,120.0,Delivered,UPI,43.0
+FD10055,2026-10-16,08:47:00,Lucknow,Dosa Corner,292.88,Delivered,UPI,26.0
+FD10056,2026-10-02,14:36:00,Mumbai,Wrap & Roll,771.74,Cancelled,UPI,
+FD10057,2026-10-17,13:24:00,Lucknow,Curry House,511.56,Rejected,Credit Card,
+FD10058,2026-10-05,20:38:00,Mumbai,Green Bowl,765.21,Delivered,Wallet,27.0
+FD10059,2026-10-24,12:58:00,Bengaluru,Green Bowl,598.09,In Transit,Wallet,71.0
+FD10060,2026-10-22,18:24:00,Mumbai,Royal Biryani,668.69,In Transit,Credit Card,
+FD10061,2026-10-29,20:09:00,Mumbai,Royal Biryani,348.83,Cancelled,Debit Card,
+FD10062,2026-10-24,19:24:00,Lucknow,Green Bowl,619.55,Delivered,Cash,42.0
+FD10063,2026-10-12,14:50:00,Delhi,Urban Tadka,658.46,Delivered,Wallet,43.0
+FD10064,2026-10-30,22:13:00,Delhi,Urban Tadka,410.44,Delivered,UPI,90.0
+FD10065,2026-10-13,21:56:00,Mumbai,Dosa Corner,626.31,Delivered,Credit Card,27.0
+FD10066,2026-10-11,21:35:00,Hyderabad,Green Bowl,627.58,Delivered,Cash,25.0
+FD10067,2026-10-29,13:36:00,Hyderabad,Dosa Corner,415.59,Delivered,UPI,32.0
+FD10068,2026-10-12,12:19:00,Lucknow,Urban Tadka,306.67,Delivered,Credit Card,40.0
+FD10069,2026-10-03,23:55:00,Mumbai,Royal Biryani,295.02,Delivered,Wallet,93.0
+FD10070,2026-10-15,16:02:00,Mumbai,Urban Tadka,536.44,Cancelled,Wallet,
+FD10071,2026-10-25,15:17:00,Delhi,Pizza Point,582.13,Delivered,Wallet,43.0
+FD10072,2026-10-06,17:25:00,Bengaluru,Spice Hub,369.42,Delivered,Cash,61.0
+FD10073,2026-10-15,20:28:00,Lucknow,Spice Hub,525.05,Cancelled,UPI,
+FD10074,2026-10-05,23:28:00,Hyderabad,Wrap & Roll,628.4,Cancelled,UPI,
+FD10075,2026-10-22,15:08:00,Bengaluru,Pizza Point,637.46,Rejected,Credit Card,
+FD10076,2026-10-15,23:13:00,Mumbai,Royal Biryani,814.86,Cancelled,Credit Card,
+FD10077,2026-10-11,09:05:00,Lucknow,Green Bowl,762.63,In Transit,Credit Card,64.0
+FD10078,2026-10-08,18:34:00,Bengaluru,Burger Barn,329.75,Delivered,Debit Card,15.0
+FD10079,2026-10-18,20:21:00,Delhi,Royal Biryani,839.88,Delivered,UPI,34.0
+FD10080,2026-10-21,12:33:00,Mumbai,Urban Tadka,419.11,Delivered,Debit Card,60.0
+FD10081,2026-10-30,13:35:00,Delhi,Dosa Corner,718.53,Delivered,UPI,97.0
+FD10082,2026-10-14,17:42:00,Delhi,Curry House,532.92,In Transit,UPI,52.0
+FD10083,2026-10-05,23:32:00,Delhi,Curry House,441.69,Delivered,UPI,38.0
+FD10084,2026-10-26,19:38:00,Mumbai,Green Bowl,176.54,Delivered,UPI,33.0
+FD10085,2026-10-20,23:35:00,Bengaluru,Urban Tadka,487.4,Delivered,Cash,33.0
+FD10086,2026-10-22,22:39:00,Mumbai,Dosa Corner,223.72,Delivered,Credit Card,29.0
+FD10087,2026-10-04,17:36:00,Mumbai,Burger Barn,703.79,Delivered,UPI,37.0
+FD10088,2026-10-10,21:18:00,Lucknow,Spice Hub,808.19,Delivered,Debit Card,
+FD10089,2026-10-24,08:14:00,Hyderabad,Burger Barn,368.59,In Transit,Credit Card,
+FD10090,2026-10-26,12:47:00,Bengaluru,Curry House,577.37,Delivered,UPI,69.0
+FD10091,2026-10-14,22:20:00,Mumbai,Royal Biryani,382.18,Cancelled,UPI,
+FD10092,2026-10-25,21:32:00,Lucknow,Curry House,400.59,Delivered,UPI,30.0
+FD10093,2026-10-27,14:11:00,Delhi,Curry House,667.15,Delivered,Debit Card,47.0
+FD10094,2026-10-13,18:25:00,Mumbai,Urban Tadka,512.68,Delivered,UPI,57.0
+FD10095,2026-10-28,19:31:00,Lucknow,Dosa Corner,850.53,Cancelled,UPI,
+FD10096,2026-10-09,22:37:00,Bengaluru,Green Bowl,428.38,Delivered,UPI,36.0
+FD10097,2026-10-08,19:31:00,Hyderabad,Royal Biryani,709.87,In Transit,Credit Card,29.0
+FD10098,2026-10-22,17:21:00,Bengaluru,Spice Hub,538.51,Delivered,UPI,18.0
+FD10099,2026-10-20,16:57:00,Bengaluru,Dosa Corner,671.2,Delivered,Cash,26.0
+FD10100,2026-10-05,17:30:00,Mumbai,Pizza Point,435.04,Cancelled,UPI,
+FD10101,2026-10-26,20:48:00,Mumbai,Spice Hub,510.58,Delivered,Debit Card,26.0
+FD10102,2026-10-07,22:44:00,Mumbai,Green Bowl,498.06,Delivered,Credit Card,38.0
+FD10103,2026-10-25,17:33:00,Delhi,Urban Tadka,361.15,Rejected,Credit Card,
+FD10104,2026-10-01,14:53:00,Lucknow,Urban Tadka,645.8,Delivered,UPI,42.0
+FD10105,2026-10-25,14:07:00,Mumbai,Royal Biryani,643.55,Delivered,Cash,39.0
+FD10106,2026-10-25,21:55:00,Bengaluru,Burger Barn,632.78,Delivered,Cash,23.0
+FD10107,2026-10-25,22:51:00,Hyderabad,Dosa Corner,812.02,Delivered,UPI,54.0
+FD10108,2026-10-21,12:30:00,Hyderabad,Pizza Point,795.38,Delivered,UPI,23.0
+FD10109,2026-10-15,11:44:00,Mumbai,Wok Express,448.76,Delivered,Wallet,34.0
+FD10110,2026-10-22,19:31:00,Bengaluru,Green Bowl,590.88,Delivered,Credit Card,32.0
+FD10111,2026-10-09,13:16:00,Lucknow,Wok Express,401.52,Cancelled,UPI,
+FD10112,2026-10-25,22:47:00,Hyderabad,Royal Biryani,524.44,Delivered,UPI,26.0
+FD10113,2026-10-18,15:14:00,Hyderabad,Green Bowl,406.05,Delivered,Debit Card,47.0
+FD10114,2026-10-15,13:18:00,Lucknow,Dosa Corner,827.81,Delivered,Debit Card,28.0
+FD10115,2026-10-16,23:31:00,Hyderabad,Burger Barn,589.1,Rejected,Credit Card,
+FD10116,2026-10-18,13:50:00,Delhi,Urban Tadka,478.57,Delivered,Wallet,72.0
+FD10117,2026-10-02,15:23:00,Bengaluru,Wok Express,746.79,Delivered,Credit Card,49.0
+FD10118,2026-10-05,13:29:00,Delhi,Wrap & Roll,120.0,Delivered,UPI,34.0
+FD10119,2026-10-08,12:02:00,Bengaluru,Spice Hub,137.32,Cancelled,Credit Card,
+FD10120,2026-10-04,09:06:00,Lucknow,Green Bowl,671.21,Delivered,UPI,12.0
+FD10121,2026-10-14,10:03:00,Bengaluru,Wrap & Roll,531.49,Delivered,UPI,21.0
+FD10122,2026-10-21,13:04:00,Mumbai,Curry House,567.58,Delivered,UPI,38.0
+FD10123,2026-10-21,10:52:00,Delhi,Dosa Corner,267.98,Delivered,UPI,42.0
+FD10124,2026-10-15,19:50:00,Lucknow,Royal Biryani,515.59,Delivered,Debit Card,26.0
+FD10125,2026-10-27,20:49:00,Delhi,Wok Express,900.67,Delivered,UPI,33.0
+FD10126,2026-10-18,16:03:00,Delhi,Pizza Point,676.6,Delivered,Credit Card,45.0
+FD10127,2026-10-03,15:04:00,Mumbai,Dosa Corner,552.24,Delivered,Debit Card,33.0
+FD10128,2026-10-24,18:16:00,Delhi,Burger Barn,436.58,Cancelled,Debit Card,
+FD10129,2026-10-18,22:33:00,Mumbai,Curry House,445.03,Delivered,Cash,83.0
+FD10130,2026-10-20,22:20:00,Bengaluru,Burger Barn,120.0,Delivered,Cash,65.0
+FD10131,2026-10-18,10:29:00,Mumbai,Royal Biryani,568.95,Rejected,Debit Card,
+FD10132,2026-10-18,14:10:00,Delhi,Wok Express,680.64,Delivered,UPI,37.0
+FD10133,2026-10-03,14:43:00,Delhi,Green Bowl,220.63,Delivered,Credit Card,20.0
+FD10134,2026-10-18,14:18:00,Mumbai,Wrap & Roll,394.33,In Transit,Debit Card,
+FD10135,2026-10-25,19:03:00,Delhi,Burger Barn,300.08,Delivered,UPI,12.0
+FD10136,2026-10-10,17:44:00,Hyderabad,Wok Express,336.58,Delivered,UPI,36.0
+FD10137,2026-10-19,10:54:00,Delhi,Burger Barn,530.16,Delivered,UPI,39.0
+FD10138,2026-10-01,16:00:00,Mumbai,Burger Barn,123.96,Delivered,Credit Card,40.0
+FD10139,2026-10-11,18:26:00,Mumbai,Green Bowl,636.71,Delivered,UPI,63.0
+FD10140,2026-10-14,12:49:00,Mumbai,Urban Tadka,663.23,Delivered,UPI,17.0
+FD10141,2026-10-31,22:42:00,Delhi,Spice Hub,472.29,Delivered,Cash,49.0
+FD10142,2026-10-07,10:51:00,Delhi,Wok Express,120.0,Delivered,Wallet,30.0
+FD10143,2026-10-09,23:24:00,Lucknow,Wok Express,330.68,Delivered,UPI,47.0
+FD10144,2026-10-13,12:22:00,Delhi,Wok Express,754.25,Cancelled,Wallet,
+FD10145,2026-10-31,22:42:00,Bengaluru,Spice Hub,120.0,In Transit,UPI,
+FD10146,2026-10-27,23:09:00,Bengaluru,Pizza Point,453.97,Cancelled,Wallet,
+FD10147,2026-10-02,23:14:00,Mumbai,Urban Tadka,295.8,Delivered,Wallet,80.0
+FD10148,2026-10-08,22:36:00,Mumbai,Curry House,672.87,Delivered,UPI,25.0
+FD10149,2026-10-26,21:40:00,Hyderabad,Wrap & Roll,391.73,Delivered,Cash,30.0
+FD10150,2026-10-02,20:07:00,Lucknow,Pizza Point,596.75,Delivered,Wallet,30.0
+FD10151,2026-10-27,21:30:00,Mumbai,Wok Express,627.44,In Transit,Wallet,27.0
+FD10152,2026-10-09,13:21:00,Mumbai,Urban Tadka,868.88,Delivered,Wallet,51.0
+FD10153,2026-10-29,18:30:00,Mumbai,Pizza Point,481.44,Delivered,Credit Card,75.0
+FD10154,2026-10-10,18:57:00,Bengaluru,Urban Tadka,591.45,Cancelled,UPI,
+FD10155,2026-10-14,22:04:00,Hyderabad,Pizza Point,237.84,Delivered,Cash,36.0
+FD10156,2026-10-21,17:59:00,Delhi,Wok Express,746.18,Delivered,Debit Card,40.0
+FD10157,2026-10-04,16:26:00,Mumbai,Wrap & Roll,375.5,Delivered,Debit Card,40.0
+FD10158,2026-10-18,20:46:00,Lucknow,Urban Tadka,413.46,Delivered,UPI,32.0
+FD10159,2026-10-16,15:25:00,Delhi,Royal Biryani,515.77,Cancelled,Credit Card,
+FD10160,2026-10-25,13:18:00,Bengaluru,Wok Express,223.05,Delivered,UPI,51.0
+FD10161,2026-10-31,17:46:00,Hyderabad,Dosa Corner,563.47,In Transit,Debit Card,48.0
+FD10162,2026-10-21,17:41:00,Delhi,Royal Biryani,703.82,Cancelled,UPI,
+FD10163,2026-10-13,14:08:00,Delhi,Pizza Point,575.66,Cancelled,Debit Card,
+FD10164,2026-10-13,16:42:00,Delhi,Royal Biryani,218.11,Delivered,Cash,12.0
+FD10165,2026-10-13,16:45:00,Lucknow,Pizza Point,496.48,Delivered,Credit Card,12.0
+FD10166,2026-10-26,15:23:00,Delhi,Dosa Corner,660.99,Cancelled,Credit Card,
+FD10167,2026-10-10,16:55:00,Delhi,Burger Barn,163.18,Delivered,UPI,38.0
+FD10168,2026-10-06,20:38:00,Delhi,Wok Express,315.79,Delivered,Wallet,25.0
+FD10169,2026-10-11,15:20:00,Delhi,Spice Hub,686.54,Delivered,Debit Card,62.0
+FD10170,2026-10-01,23:00:00,Bengaluru,Burger Barn,571.32,Delivered,UPI,37.0
+FD10171,2026-10-04,23:40:00,Mumbai,Wrap & Roll,598.27,Cancelled,UPI,
+FD10172,2026-10-03,17:12:00,Bengaluru,Royal Biryani,873.3,In Transit,UPI,27.0
+FD10173,2026-10-24,15:45:00,Bengaluru,Green Bowl,609.03,Delivered,Credit Card,97.0
+FD10174,2026-10-23,18:31:00,Lucknow,Dosa Corner,645.0,Delivered,Wallet,33.0
+FD10175,2026-10-22,22:28:00,Delhi,Wrap & Roll,1035.04,Cancelled,Debit Card,
+FD10176,2026-10-15,20:09:00,Lucknow,Pizza Point,479.38,Delivered,UPI,33.0
+FD10177,2026-10-23,22:42:00,Bengaluru,Royal Biryani,368.4,Delivered,Cash,24.0
+FD10178,2026-10-05,18:09:00,Delhi,Green Bowl,601.28,Cancelled,UPI,
+FD10179,2026-10-28,20:25:00,Hyderabad,Royal Biryani,603.41,Delivered,Cash,27.0
+FD10180,2026-10-16,15:50:00,Lucknow,Burger Barn,419.92,Delivered,UPI,44.0
+FD10181,2026-10-30,21:55:00,Mumbai,Pizza Point,323.84,Delivered,Debit Card,43.0
+FD10182,2026-10-05,14:59:00,Lucknow,Wrap & Roll,958.87,Delivered,Wallet,38.0
+FD10183,2026-10-16,20:57:00,Mumbai,Dosa Corner,582.1,Delivered,UPI,12.0
+FD10184,2026-10-22,22:33:00,Bengaluru,Wrap & Roll,380.87,Delivered,Debit Card,39.0
+FD10185,2026-10-16,13:12:00,Lucknow,Dosa Corner,694.03,Delivered,Wallet,54.0
+FD10186,2026-10-14,19:50:00,Mumbai,Curry House,499.26,Delivered,UPI,24.0
+FD10187,2026-10-06,12:48:00,Hyderabad,Curry House,471.95,Cancelled,UPI,
+FD10188,2026-10-12,21:59:00,Mumbai,Curry House,626.83,In Transit,Debit Card,54.0
+FD10189,2026-10-08,11:39:00,Hyderabad,Green Bowl,274.54,Delivered,UPI,99.0
+FD10190,2026-10-10,23:08:00,Bengaluru,Green Bowl,587.0,Delivered,UPI,59.0
+FD10191,2026-10-22,13:30:00,Delhi,Pizza Point,883.46,Delivered,Credit Card,45.0
+FD10192,2026-10-20,23:26:00,Mumbai,Wok Express,608.57,Delivered,Debit Card,33.0
+FD10193,2026-10-19,22:50:00,Mumbai,Pizza Point,448.52,Delivered,UPI,55.0
+FD10194,2026-10-12,19:23:00,Delhi,Pizza Point,423.65,Cancelled,UPI,
+FD10195,2026-10-30,21:19:00,Delhi,Royal Biryani,442.04,Rejected,Cash,
+FD10196,2026-10-03,21:04:00,Mumbai,Burger Barn,471.75,Delivered,Credit Card,33.0
+FD10197,2026-10-11,23:50:00,Delhi,Urban Tadka,448.22,In Transit,Cash,
+FD10198,2026-10-04,15:45:00,Delhi,Curry House,694.1,Rejected,Credit Card,
+FD10199,2026-10-11,19:02:00,Hyderabad,Wrap & Roll,190.69,Delivered,Wallet,34.0
+FD10200,2026-10-30,12:26:00,Hyderabad,Urban Tadka,683.78,Delivered,Debit Card,45.0
+FD10201,2026-10-12,19:28:00,Hyderabad,Spice Hub,447.86,Delivered,UPI,29.0
+FD10202,2026-10-29,13:28:00,Mumbai,Burger Barn,591.62,Rejected,Cash,
+FD10203,2026-10-16,19:55:00,Lucknow,Curry House,305.87,Delivered,Credit Card,28.0
+FD10204,2026-10-22,19:09:00,Bengaluru,Wrap & Roll,772.44,Delivered,UPI,44.0
+FD10205,2026-10-15,17:18:00,Delhi,Urban Tadka,756.67,Cancelled,UPI,
+FD10206,2026-10-09,18:10:00,Delhi,Curry House,702.32,Delivered,Debit Card,35.0
+FD10207,2026-10-24,21:14:00,Hyderabad,Spice Hub,232.2,Cancelled,UPI,
+FD10208,2026-10-31,21:54:00,Delhi,Burger Barn,677.53,Delivered,UPI,44.0
+FD10209,2026-10-09,18:56:00,Bengaluru,Dosa Corner,596.92,Rejected,UPI,
+FD10210,2026-10-25,19:02:00,Lucknow,Urban Tadka,215.0,In Transit,Credit Card,59.0
+FD10211,2026-10-09,23:37:00,Delhi,Urban Tadka,515.38,Delivered,UPI,25.0
+FD10212,2026-10-23,12:13:00,Delhi,Burger Barn,589.26,Delivered,Credit Card,30.0
+FD10213,2026-10-25,12:11:00,Lucknow,Royal Biryani,625.65,Delivered,UPI,28.0
+FD10214,2026-10-14,11:17:00,Bengaluru,Dosa Corner,553.68,Delivered,UPI,30.0
+FD10215,2026-10-23,20:11:00,Delhi,Dosa Corner,575.33,Delivered,Debit Card,39.0
+FD10216,2026-10-09,17:29:00,Lucknow,Spice Hub,799.99,Cancelled,UPI,
+FD10217,2026-10-03,21:59:00,Lucknow,Urban Tadka,752.95,Delivered,Debit Card,48.0
+FD10218,2026-10-03,20:35:00,Bengaluru,Curry House,120.0,Delivered,UPI,31.0
+FD10219,2026-10-14,16:43:00,Bengaluru,Pizza Point,459.69,Delivered,UPI,58.0
+FD10220,2026-10-28,23:29:00,Mumbai,Wrap & Roll,488.72,Delivered,UPI,54.0
+FD10221,2026-10-04,21:00:00,Delhi,Wok Express,187.1,Delivered,Credit Card,18.0
+FD10222,2026-10-15,15:05:00,Bengaluru,Spice Hub,537.89,Delivered,UPI,52.0
+FD10223,2026-10-22,16:16:00,Mumbai,Wrap & Roll,757.26,Delivered,Cash,28.0
+FD10224,2026-10-07,15:14:00,Hyderabad,Urban Tadka,313.55,Cancelled,UPI,
+FD10225,2026-10-23,13:50:00,Hyderabad,Burger Barn,583.92,Delivered,Credit Card,12.0
+FD10226,2026-10-10,13:50:00,Delhi,Royal Biryani,345.99,Delivered,Credit Card,32.0
+FD10227,2026-10-26,23:51:00,Bengaluru,Green Bowl,392.34,In Transit,UPI,64.0
+FD10228,2026-10-18,17:38:00,Delhi,Wok Express,800.7,Delivered,Credit Card,49.0
+FD10229,2026-10-17,16:33:00,Lucknow,Wok Express,416.91,Delivered,UPI,29.0
+FD10230,2026-10-06,21:38:00,Mumbai,Dosa Corner,607.82,Delivered,Credit Card,82.0
+FD10231,2026-10-15,18:24:00,Bengaluru,Dosa Corner,164.47,Cancelled,UPI,
+FD10232,2026-10-27,23:40:00,Bengaluru,Green Bowl,873.84,Delivered,Cash,48.0
+FD10233,2026-10-01,21:47:00,Mumbai,Spice Hub,634.5,In Transit,Wallet,66.0
+FD10234,2026-10-24,17:45:00,Hyderabad,Wok Express,485.33,Delivered,UPI,71.0
+FD10235,2026-10-16,16:36:00,Hyderabad,Dosa Corner,629.35,Delivered,Debit Card,15.0
+FD10236,2026-10-23,23:03:00,Bengaluru,Pizza Point,252.13,Delivered,Cash,92.0
+FD10237,2026-10-21,21:43:00,Hyderabad,Green Bowl,744.68,Delivered,UPI,36.0
+FD10238,2026-10-14,23:21:00,Lucknow,Burger Barn,458.44,Delivered,Cash,24.0
+FD10239,2026-10-10,12:44:00,Mumbai,Spice Hub,481.23,Delivered,Debit Card,45.0
+FD10240,2026-10-20,22:32:00,Bengaluru,Wok Express,426.59,Rejected,Wallet,
+FD10241,2026-10-05,20:52:00,Delhi,Burger Barn,409.68,Delivered,Wallet,31.0
+FD10242,2026-10-19,12:20:00,Hyderabad,Curry House,651.99,Delivered,UPI,45.0
+FD10243,2026-10-03,19:55:00,Bengaluru,Wrap & Roll,568.62,Delivered,Credit Card,81.0
+FD10244,2026-10-21,20:50:00,Mumbai,Curry House,643.83,Delivered,Credit Card,42.0
+FD10245,2026-10-20,08:19:00,Delhi,Burger Barn,518.33,Delivered,UPI,31.0
+FD10246,2026-10-03,17:28:00,Lucknow,Pizza Point,617.51,Delivered,UPI,47.0
+FD10247,2026-10-24,22:31:00,Mumbai,Curry House,440.42,Delivered,Wallet,57.0
+FD10248,2026-10-13,15:46:00,Hyderabad,Curry House,943.65,Delivered,UPI,20.0
+FD10249,2026-10-25,17:41:00,Delhi,Green Bowl,222.09,In Transit,Credit Card,36.0
+FD10250,2026-10-02,17:51:00,Lucknow,Wrap & Roll,759.58,Cancelled,Cash,
+FD10251,2026-10-06,15:22:00,Delhi,Urban Tadka,779.9,Delivered,UPI,27.0
+FD10252,2026-10-16,23:30:00,Delhi,Wrap & Roll,358.09,Delivered,Credit Card,30.0
+FD10253,2026-10-06,21:25:00,Lucknow,Spice Hub,943.56,Delivered,Wallet,43.0
+FD10254,2026-10-11,12:54:00,Lucknow,Urban Tadka,709.14,Rejected,Credit Card,
+FD10255,2026-10-21,23:18:00,Delhi,Royal Biryani,704.52,In Transit,UPI,
+FD10256,2026-10-05,22:35:00,Bengaluru,Spice Hub,525.32,In Transit,UPI,73.0
+FD10257,2026-10-22,15:07:00,Hyderabad,Spice Hub,478.73,Delivered,Wallet,43.0
+FD10258,2026-10-04,22:51:00,Lucknow,Spice Hub,480.21,Delivered,UPI,36.0
+FD10259,2026-10-06,12:23:00,Mumbai,Green Bowl,594.2,Delivered,Credit Card,38.0
+FD10260,2026-10-19,23:20:00,Bengaluru,Curry House,786.23,Delivered,UPI,32.0
+FD10261,2026-10-25,20:34:00,Hyderabad,Spice Hub,554.45,Delivered,Credit Card,25.0
+FD10262,2026-10-06,20:29:00,Hyderabad,Wok Express,346.83,Delivered,Wallet,86.0
+FD10263,2026-10-10,12:50:00,Hyderabad,Curry House,676.64,Rejected,Credit Card,
+FD10264,2026-10-29,23:31:00,Bengaluru,Urban Tadka,695.02,Delivered,Wallet,34.0
+FD10265,2026-10-31,09:31:00,Delhi,Urban Tadka,644.39,Delivered,UPI,46.0
+FD10266,2026-10-19,14:06:00,Lucknow,Wrap & Roll,661.64,Cancelled,Credit Card,
+FD10267,2026-10-14,13:01:00,Lucknow,Curry House,468.52,Delivered,Cash,35.0
+FD10268,2026-10-11,21:23:00,Hyderabad,Royal Biryani,343.49,Delivered,Credit Card,27.0
+FD10269,2026-10-19,14:59:00,Delhi,Curry House,355.04,Delivered,UPI,
+FD10270,2026-10-19,23:55:00,Delhi,Spice Hub,209.26,In Transit,Cash,30.0
+FD10271,2026-10-10,20:37:00,Hyderabad,Burger Barn,565.02,Delivered,UPI,12.0
+FD10272,2026-10-01,09:37:00,Delhi,Curry House,504.14,Delivered,Credit Card,92.0
+FD10273,2026-10-05,08:23:00,Lucknow,Pizza Point,436.4,Delivered,Wallet,38.0
+FD10274,2026-10-30,10:10:00,Mumbai,Curry House,120.0,Delivered,UPI,41.0
+FD10275,2026-10-13,19:00:00,Hyderabad,Green Bowl,283.01,Delivered,UPI,47.0
+FD10276,2026-10-15,22:20:00,Lucknow,Curry House,732.96,Delivered,UPI,40.0
+FD10277,2026-10-15,14:18:00,Mumbai,Green Bowl,393.72,Delivered,UPI,77.0
+FD10278,2026-10-25,22:11:00,Mumbai,Burger Barn,588.51,Cancelled,UPI,
+FD10279,2026-10-03,10:15:00,Bengaluru,Urban Tadka,255.77,Delivered,Debit Card,38.0
+FD10280,2026-10-03,22:01:00,Bengaluru,Urban Tadka,793.35,Delivered,UPI,
+FD10281,2026-10-09,23:36:00,Mumbai,Curry House,492.63,Delivered,Debit Card,36.0
+FD10282,2026-10-16,21:55:00,Bengaluru,Spice Hub,575.11,Cancelled,UPI,
+FD10283,2026-10-21,20:41:00,Lucknow,Spice Hub,961.9,Delivered,UPI,42.0
+FD10284,2026-10-16,22:26:00,Bengaluru,Urban Tadka,808.12,Delivered,UPI,33.0
+FD10285,2026-10-14,10:25:00,Delhi,Urban Tadka,461.75,Cancelled,Debit Card,
+FD10286,2026-10-30,14:18:00,Mumbai,Curry House,407.29,Delivered,Credit Card,33.0
+FD10287,2026-10-05,12:08:00,Mumbai,Burger Barn,458.15,Delivered,UPI,58.0
+FD10288,2026-10-18,18:35:00,Delhi,Dosa Corner,616.88,Delivered,Cash,35.0
+FD10289,2026-10-17,21:33:00,Delhi,Urban Tadka,500.01,Delivered,Credit Card,48.0
+FD10290,2026-10-15,20:00:00,Hyderabad,Wok Express,444.9,Delivered,UPI,49.0
+FD10291,2026-10-26,22:24:00,Mumbai,Green Bowl,798.76,In Transit,Wallet,
+FD10292,2026-10-09,13:16:00,Lucknow,Burger Barn,498.3,Delivered,UPI,37.0
+FD10293,2026-10-30,21:10:00,Mumbai,Wrap & Roll,956.92,Delivered,UPI,48.0
+FD10294,2026-10-11,14:42:00,Delhi,Dosa Corner,537.24,Delivered,Credit Card,16.0
+FD10295,2026-10-17,15:31:00,Hyderabad,Wrap & Roll,859.21,Delivered,UPI,43.0
+FD10296,2026-10-17,20:38:00,Lucknow,Urban Tadka,587.89,Delivered,UPI,40.0
+FD10297,2026-10-27,23:42:00,Mumbai,Urban Tadka,702.96,Delivered,Debit Card,45.0
+FD10298,2026-10-14,19:58:00,Delhi,Wok Express,382.32,Delivered,UPI,30.0
+FD10299,2026-10-09,10:48:00,Delhi,Pizza Point,357.79,Delivered,Cash,60.0
+FD10300,2026-10-01,19:37:00,Bengaluru,Curry House,607.34,Delivered,Wallet,41.0
+FD10255,2026-10-21,23:18:00,Delhi,Royal Biryani,704.52,In Transit,UPI,
+FD10058,2026-10-05,20:38:00,Mumbai,Green Bowl,765.21,Delivered,Wallet,27.0
+FD10151,2026-10-27,21:30:00,Mumbai,Wok Express,627.44,In Transit,Wallet,27.0

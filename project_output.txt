@@ -1,0 +1,173 @@
+
+==============================================================================
+PROJECT 8: FOOD DELIVERY OPERATIONS ANALYTICS
+==============================================================================
+Raw dataset shape: 303 rows x 9 columns
+Unique orders after duplicate removal: 300
+Duplicate Order_ID records detected: 3
+Missing delivery times before cleaning: 25
+Missing delivery times after cleaning: 24 (cancelled orders are not applicable)
+
+==============================================================================
+1. DATASET PREVIEW
+==============================================================================
+Order_ID      City      Restaurant  Order_Value Payment_Mode Order_Status  Order_Hour  Delivery_Time_Min Order_Date Delivery_Band
+ FD10001 Hyderabad Tandoori Treats      1118.38          UPI    Delivered          20               36.2 2026-01-13      Standard
+ FD10002    Mumbai     South Spice       337.58         Cash    Delivered          20               36.2 2026-01-26      Standard
+ FD10003      Pune     South Spice       548.97   Debit Card    Delivered          15               30.5 2026-02-16      Standard
+ FD10004 Hyderabad     Pizza Point       351.05          UPI    Delivered          15               33.9 2026-01-31      Standard
+ FD10005     Delhi      Wrap World       561.11          UPI    Delivered          21               28.5 2026-01-03          Fast
+ FD10006      Pune   Noodle Street      1128.37          UPI    Delivered          10               36.9 2026-03-18      Standard
+ FD10007 Hyderabad      Green Bowl      1469.97       Wallet    Delivered          17               65.1 2026-03-07       Delayed
+ FD10008 Hyderabad   Noodle Street       443.66  Credit Card      Delayed          17               52.9 2026-02-16       Delayed
+ FD10009     Delhi  Sweet Cravings       936.01   Debit Card    Delivered          19               39.6 2026-01-29      Standard
+ FD10010    Mumbai      Wrap World      1167.02   Debit Card    Delivered          14               30.6 2026-03-17      Standard
+
+==============================================================================
+2. ORDER STATUS COUNTS AND PERCENTAGES
+==============================================================================
+              Orders  Percentage
+Order_Status                    
+Delivered        235       78.33
+Delayed           31       10.33
+Cancelled         24        8.00
+Returned          10        3.33
+
+==============================================================================
+3. AVERAGE DELIVERY TIME BY CITY (MINUTES)
+==============================================================================
+City
+Bengaluru    44.35
+Mumbai       39.71
+Delhi        39.16
+Hyderabad    33.90
+Pune         32.36
+
+==============================================================================
+4. TOP FIVE RESTAURANTS BY TOTAL ORDER VALUE
+==============================================================================
+Restaurant
+South Spice        34802.56
+Sweet Cravings     31262.63
+Pizza Point        30598.55
+Spice Hub          27950.49
+Tandoori Treats    27317.95
+
+==============================================================================
+5. AVERAGE ORDER VALUE BY RESTAURANT
+==============================================================================
+Restaurant
+Sweet Cravings     976.96
+Burger House       972.67
+Pizza Point        927.23
+Green Bowl         918.73
+South Spice        915.86
+Wrap World         872.42
+Spice Hub          822.07
+Curry Corner       813.69
+Noodle Street      786.28
+Tandoori Treats    780.51
+
+==============================================================================
+6. PEAK ORDERING HOURS (ORDER COUNT)
+==============================================================================
+Order_Hour
+17    42
+20    35
+14    30
+18    28
+16    26
+15    26
+19    26
+21    22
+22    16
+13    13
+11    12
+12    11
+23     7
+10     4
+9      1
+8      1
+
+==============================================================================
+7. DELIVERY TIME BY ORDER STATUS
+==============================================================================
+              count   mean  median
+Order_Status                      
+Cancelled         0    NaN     NaN
+Delayed          31  63.92    64.2
+Delivered       235  34.61    35.2
+Returned         10  49.81    46.2
+
+==============================================================================
+8. CITY-WISE CANCELLATION AND DELAY RATES (%)
+==============================================================================
+Order_Status  Cancelled  Delayed
+City                            
+Bengaluru          3.51    12.28
+Delhi             10.59     9.41
+Hyderabad          8.77    10.53
+Mumbai             6.45     8.06
+Pune              10.26    12.82
+
+==============================================================================
+9. NUMPY DELIVERY-TIME STATISTICS
+==============================================================================
+Median: 37.00 minutes
+Standard deviation (population): 14.94 minutes
+
+==============================================================================
+10. IQR OUTLIER DETECTION
+==============================================================================
+Q1: 27.70
+Q3: 47.00
+IQR: 19.30
+Upper threshold: 75.95 minutes
+Number of unusually long deliveries: 6
+
+Order_ID      City     Restaurant  Delivery_Time_Min
+ FD10088    Mumbai  Noodle Street               77.5
+ FD10096 Bengaluru   Burger House               80.4
+ FD10133 Bengaluru Sweet Cravings               83.0
+ FD10166    Mumbai    South Spice               77.0
+ FD10217     Delhi      Spice Hub               77.9
+ FD10245 Bengaluru      Spice Hub               82.9
+
+==============================================================================
+11. DELIVERY-TIME BANDS
+==============================================================================
+Delivery_Band
+Standard         114
+Delayed           85
+Fast              77
+Not Delivered     24
+
+==============================================================================
+12. REVENUE BY CITY AND PAYMENT MODE
+==============================================================================
+Payment_Mode     Cash  Credit Card  Debit Card       UPI   Wallet
+City                                                             
+Bengaluru     5932.31     11380.41     6704.72  20478.33  4482.56
+Delhi         8675.86     13648.51    14739.77  28711.10  7740.38
+Hyderabad     1341.45      9133.11    11611.65  24576.23  3403.79
+Mumbai        7651.58      8638.59    11834.21  22707.49  4233.10
+Pune          2526.27      9094.93     8339.55  14523.56   462.01
+
+==============================================================================
+13. TOTAL REVENUE BY CITY
+==============================================================================
+City
+Delhi        73515.62
+Mumbai       55064.97
+Hyderabad    50066.23
+Bengaluru    48978.33
+Pune         34946.32
+
+==============================================================================
+14. OPERATIONAL RECOMMENDATIONS
+==============================================================================
+1. Review rider allocation, traffic patterns and dispatch processes in Bengaluru, which has the highest average delivery time.
+2. Increase rider and customer-support capacity around 17:00, the busiest ordering hour.
+3. Investigate cancellation reasons, restaurant confirmation delays and stock availability in Delhi.
+4. Review route planning and preparation-time coordination in Pune, which has the highest delayed-order rate.
+5. Monitor high-volume restaurants and delivery-time outliers; use preparation-time tracking and proactive customer updates.
